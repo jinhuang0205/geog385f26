@@ -21,9 +21,9 @@ website:
   title: "Geography 385: Spatial Data Analysis"
   navbar:
     left:
-      - href: syllabus.qmd
+      - href: index.qmd
         text: Syllabus
-      - href: assignments/index.qmd
+      - href: assignments/exercises.qmd
         text: Assignments
 
 
