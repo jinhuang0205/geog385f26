@@ -1,6 +1,6 @@
 ---
 title: "Geog 385: Spatial Data Analysis"
-subtitle: "Spring 2026"
+subtitle: "Fall 2026"
 format:
   html:
     toc: true
@@ -12,22 +12,35 @@ format:
     number-sections: false
 ---
 
-## Course Information
-**Instructor:** Dr. Sergio J. Rey  
-**Email:** srey@sdsu.edu  
-**Class Meeting Times:** Tu/Th, 2:00-3:15  
-**Class Location:** GMCS 307  
-**Office Hours:** Tuesdays, 11:00-12:00  
-**Office:** PSFA 361G  
+## Course Information 
 
-**Teaching Assistant:** Jin Huang  
+**Instructor:** Jin Huang  
+
 **Email:** jhuang7158@sdsu.edu  
-**Office Hours:** Thursdays, 12:30-13:30  
-**Office:** PSFA 361E 
+
+**Class Meeting Times:** Monday/Wednesday, 3:30pm - 4:45pm  
+
+**Class Location:** [LSN 111](https://it.sdsu.edu/classrooms-labs/lsn111)
+
+**Office Hours:** Wednesday, 2:00pm - 3:00pm
+
+**Office:** PSFA 361E / [VirtualLink](https://meet.google.com/hwh-ozsy-nvp)
 
 ---
 
-This syllabus is detailed by design. You are not expected to memorize it. Instead, you should understand (1) how learning happens in this course, (2) how grades are earned, and (3) where to look when you have questions. Key sections to revisit during the semester are the course schedule, grading thresholds, and token policy.
+This syllabus is detailed by design. You are not expected to memorize it. 
+Instead, you should understand 
+
+- How learning happens in this course.
+- How grades are earned.
+- Where to look when you have questions. 
+
+Key sections to revisit during the semester are the course schedule, grading thresholds, and token policy.
+
+This syllabus is adapted from Dr. Serge Rey's previous course, and the asynchronous lecture videos were recorded by Dr. Serge Rey.
+
+
+
 
 ## Introduction
 The purpose of this course is to introduce you to methods of spatial
@@ -52,7 +65,7 @@ this is a means to the end goal: students will *code to learn* spatial data
 analysis.
 
 
-In the scope of a 15-week semester course we can only introduce a handful
+In the scope of a 16-week semester course we can only introduce a handful
 of the key concepts and methods relevant to the field of spatial data analysis. As
 such, the course is not intended as an exhaustive treatment. Instead,
 the goal is that students will acquire an understanding of the more
@@ -76,40 +89,41 @@ By the end of this course, students will be able to:
 
 ## Topics (Planned)
 
-| Week | Date | Topic (R: Reading, L: Lecture Video)              | Activities           |
-|------|------|---------------------------------------------------|----------------------|
-| 1    | 1-20 | Introduction                                      |                      |
-|      | 1-22 | Computational Environment [R][collab]             |                      |
-| 2    | 1-27 | Python Primer [R][primer], [L1a][L1a], [L1b][L1b] | Q 1                  |
-|      | 1-29 | Data Exploration [R][pandas10]                    |                      |
-| 3    | 2-3  | Probability    [R][prob], [L2a][L2a], [L2b][L2b]  | Q 2                  |
-|      | 2-5  | Data Simulation [R][sim]                          | Exercise 1  (W 3-4)  |
-| 4    | 2-10 | Inference [R][estimation]                         | Q 3                  |
-|      | 2-12 | Estimation and Testing in Python [R][hypothesis]  |                      |
-| 5    | 2-17 | Spatial Data  [R][spatial-data]                   | Q 4                  |
-|      | 2-19 | Spatial Data in Python [R][spatial-data]          | Exercise 2 (W 5-6)   |
-| 6    | 2-24 | Areal Unit Data                                   | Q 5                  |
-|      | 2-26 | Visualization of Areal Unit Data [R][choro]       |                      |
-| 7    | 3-3  | Spatial Weights  [R][weights]                     | Q 6                  |
-|      | 3-5  | Spatial Graphs                                    | Exercise 3 (W 7-8)   |
-| 8    | 3-10 | Global Spatial Autocorrelation  [R][global]       | Q 7                  |
-|      | 3-12 | Testing for Global Autocorrelation                |                      |
-| 9    | 3-17 | No Class – Spatial Data Science Summit and AAG    |                      |
-|      | 3-19 | No Class – Spatial Data Science Summit and AAG    |                      |
-| 10   | 3-24 | Local Spatial Autocorrelation                     | Q 8                  |
-|      | 3-26 | Testing for Local Spatial Autocorrelation         | Exercise 4 (W 10-11) |
-|      | 3-31 | Spring Break – No class                           |                      |
-|      | 4-2  | Spring Break – No class                           |                      |
-| 11   | 4-7  | Bivariate Spatial Autocorrelation [R][local]      | Q 9                  |
-|      | 4-9  | Regionalization      [R][region]                  |                      |
-| 12   | 4-14 | Point Patterns       [R][points]                  | Q 10                 |
-|      | 4-16 | Centrography        [R][centro]                   | Exercise 5 (W 12-14) |
-| 13   | 4-21 | Quadrat Methods     [R][quadrat]                  | Q 11                 |
-|      | 4-23 | Quadrat Applications                              |                      |
-| 14   | 4-28 | Distance Based  Analysis [R][ripley]              | Q 12                 |
-|      | 4-30 | Ripley Functions                                  |                      |
-| 15   | 5-5  | Clusters  [R][process]                            | Q 13                 |
-|      | 5-7  | Course retrospective                              |                      |
+| Week | Date | Topic (R: Reading, L: Lecture Video) | Activities |
+|------|------|---------------------------------------|------------|
+| 1 | 08-24 | Introduction | |
+| | 08-26 | Computational Environment [R][collab] | |
+| 2 | 08-31 | Python Primer [R][primer], [L1a][L1a], [L1b][L1b] | Q1 |
+| | 09-02 | Data Exploration [R][pandas10] | ET1 |
+| 3 | 09-07 | **Labor Day – No Class** | |
+| | 09-09 | Probability [R][prob], [L2a][L2a], [L2b][L2b] | ET2 |
+| 4 | 09-14 | Data Simulation [R][sim] | Q2, Exercise 1 |
+| | 09-16 | Inference [R][estimation] | ET3 |
+| 5 | 09-21 | **No Class** | |
+| | 09-23 | **No Class** | |
+| 6 | 09-28 | Estimation and Testing in Python [R][hypothesis] | Q3 |
+| | 09-30 | Spatial Data [R][spatial-data] | ET4 |
+| 7 | 10-05 | Spatial Data in Python [R][spatial-data] | Q4, Exercise 2 (W6–7) |
+| | 10-07 | Areal Unit Data | ET5 |
+| 8 | 10-12 | Visualization of Areal Unit Data [R][choro] | Q5 |
+| | 10-14 | Spatial Weights [R][weights] | ET6 |
+| 9 | 10-19 | Spatial Graphs | Q6, Exercise 3 (W8–9) |
+| | 10-21 | Global Spatial Autocorrelation [R][global] | ET7 |
+| 10 | 10-26 | Testing for Global Autocorrelation | Q7 |
+| | 10-28 | Local Spatial Autocorrelation | Exercise 4 (W10–11), ET8 |
+| 11 | 11-02 | Testing for Local Spatial Autocorrelation | Q8 |
+| | 11-04 | Bivariate Spatial Autocorrelation [R][local] | ET9 |
+| 12 | 11-09 | Regionalization [R][region] | Q9 |
+| | 11-11 | Point Patterns [R][points] | ET10 |
+| 13 | 11-16 | Centrography [R][centro] | Q10, Exercise 5 (W13–14) |
+| | 11-18 | Quadrat Methods [R][quadrat] | ET11 |
+| 14 | 11-23 | Quadrat Applications | Q11 |
+| | 11-25 | **Thanksgiving Break – No Class** | |
+| 15 | 11-30 | Distance-Based Analysis [R][ripley] | Q12 |
+| | 12-02 | Ripley Functions | ET12 |
+| 16 | 12-07 | Clusters [R][process] | Q13 |
+| | 12-09 | Applications | ET13|
+
 
 [collab]: https://geographicdata.science/book/notebooks/02_geospatial_computational_environment.html
 [spatial-data]: https://geographicdata.science/book/notebooks/03_spatial_data.html
@@ -134,25 +148,8 @@ By the end of this course, students will be able to:
 [L2a]: https://www.youtube.com/watch?v=vhTnMgHhf2A&list=PL68GC8kTZb8CRy0gkyJSvRF8Xdmx6Tysk&index=3gAQBiAQBsAgC
 [L2b]: https://www.youtube.com/watch?v=1Wmeef1Q-CE&list=PL68GC8kTZb8CRy0gkyJSvRF8Xdmx6Tysk&index=4&pp=gAQBiAQBsAgC
 
-## Instructional Format: Prerecorded Conceptual Lectures and Experiential Learning
-
-Conceptual lecture material for this course will be prerecorded and made available in advance of class meetings. Students are expected to watch the assigned lecture videos prior to the Tuesday meetings.
-
-This structure allows us to make the most effective use of in-class time. Rather than repeating foundational material during class, scheduled meetings will emphasize experiential learning, including:
-
-- Guided computational exercises
-- Hands-on spatial data analysis workflows
-- Collaborative problem-solving
-- Discussion and interpretation of analytical results
-
-Tuesday sessions will build directly on the prerecorded material, assuming prior engagement with the concepts, terminology, and methods introduced in the videos. Students who arrive unprepared will find it difficult to participate fully in class activities.
-
-This approach is designed to support deeper learning by shifting lower-level content acquisition outside the classroom and reserving in-person time for higher-order skills such as application, synthesis, and interpretation.
-
----
 
 ## Grading Philosophy: Specification Grading
-
 This course uses **specification grading**, a mastery-based grading system in which grades are earned by **demonstrating competency at clearly defined performance thresholds**, rather than by accumulating points or percentages.
 
 Each letter grade corresponds to a set of required competencies. To earn a given grade, you must meet **all** requirements at that grade level. Performance does not average across categories, and exceeding one requirement does not compensate for falling short in another.
@@ -167,9 +164,9 @@ Each letter grade corresponds to a set of required competencies. To earn a given
 |-------------------------|-------|-----------------------------------------|
 | Exercises (Assignments) | 5     | Each spans two weeks                    |
 | Quizzes                 | 13    | Weekly, short conceptual checks         |
-| Lecture Participation   | ~15   | In-class experiential activities        |
-| Computational Essay     | 1     | Required for A− and above               |
+| Exit tickets            | 13    | Weekly, base on lecture contents         |
 | Tokens                  | 2     | Used for assignment revision or quiz recovery |
+| Computational Essay     | 1     | Optional, can boost your base grad    |
 
 
 #### Exercises
@@ -181,16 +178,20 @@ Each exercise is due at 11:59pm on the Sunday at the end of its second week.
 #### Quizzes
 Short assessments of key concepts, terminology, and methods in spatial data analysis. Only quizzes meeting specifications count toward grade thresholds.
 
-#### LP — Lecture Participation
-Active engagement during lecture sessions through structured activities, discussions, short exercises, or in-class analysis tasks. Each participation unit must meet stated criteria to count as satisfactory.
-One LP unit is earned through satisfactory participation in a designated in-class activity (e.g., guided exercise, discussion, or analysis task). Most weeks offer one LP opportunity per meeting.
+#### ET - Exit Tickets
+Exit tickets are designed to check your understanding of the week's key concepts. One exit ticket will be assigned each week and is due on **Thursday night**.
+They consist of a short-answer question based on the what we discussed during the lecture.
 
-#### CE — Computational Essay
-A substantial integrative analysis of a spatial data problem, supported by computation (code, maps, figures, and results).
 
-- **A level:** Computational Essay must be submitted *and presented*  
-- **A− level:** Computational Essay must be submitted  
-- **Below A−:** Computational Essay not required  
+#### CE — Computational Essay (Optional)
+
+A **Computational Essay (CE)** is a substantial, integrative analysis of a spatial data problem supported by computation, including code, maps, figures, and results.
+ You will be expected to find your own dataset and apply the concepts and methods learned throughout the course.
+
+The Computational Essay is **optional** and may be used to **boost your final course grade by one grade level**. 
+For example, if your final grade is a **B** and you have already used all of your tokens, successfully completing the Computational Essay can raise your grade by one level, provided the project meets the course expectations.
+
+
 
 ---
 
@@ -200,19 +201,19 @@ A substantial integrative analysis of a spatial data problem, supported by compu
 
 Your final course grade is the **highest grade level for which all required competencies have been demonstrated**.
 
-| Level | Assignments | Quizzes | LP | CE        |
-|-------|-------------|---------|----|-----------|
-| A     | 5           | 13      | 13 | Presented |
-| A-    | 5           | 12      | 12 | Submitted |
-| B+    | 4           | 11      | 11 |           |
-| B     | 4           | 10      | 10 |           |
-| B-    | 4           | 9       | 9  |           |
-| C+    | 3           | 8       | 8  |           |
-| C     | 3           | 6       | 6  |           |
-| C-    | 3           | 5       | 5  |           |
-| D+    | 2           | 4       | 4  |           |
-| D     | 2           | 3       | 3  |           |
-| D-    | 2           | 2       | 2  |           |
+| Level | Assignments | Quizzes | ET | 
+|-------|-------------|---------|----|
+| A     | 5           | 13      | 13 | 
+| A-    | 5           | 12      | 12 | 
+| B+    | 4           | 11      | 11 |           
+| B     | 4           | 10      | 10 |           
+| B-    | 4           | 9       | 9  |           
+| C+    | 3           | 8       | 8  |           
+| C     | 3           | 6       | 6  |           
+| C-    | 3           | 5       | 5  |           
+| D+    | 2           | 4       | 4  |           
+| D     | 2           | 3       | 3  |           
+| D-    | 2           | 2       | 2  |           
 
 ---
 
@@ -283,7 +284,6 @@ To support flexibility, revision, and student agency within the specification gr
 - Tokens do **not** roll over between semesters.
 - Tokens cannot be combined or split.
 - Tokens cannot be used to satisfy requirements other than assignment resubmissions or quiz recovery.
-
 
 
 Students are encouraged to think strategically about token use:
