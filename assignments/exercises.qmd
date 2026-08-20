@@ -11,13 +11,12 @@ listing:
 
 
 
-| Assignment                 |   Out |   Due | What you practice                   |
-|----------------------------|------:|------:|-------------------------------------|
-| A1: Foundations            | 09-09 | 09-23 | Colab, pandas, SciPy inference      |
-| A2: Area Unit Data         | 09-28 | 10-12 | polygons, choropleths, adjacency    |
-| A3: Global Autocorrelation | 10-12 | 10-26 | join counts, global autocorrelation |
-| A4: Local Autocorrelation  | 10-28 | 11-11 | hot, cold spots, cluster maps       |
-| A5: Clustering             | 11-16 | 11-30 | point patterns                      |
+| Assignment                          | What you practice                   |
+|-------------------------------------|-------------------------------------|
+| A1: Foundations                     | Colab, pandas, SciPy inference      |
+| A2: Area Unit Data                  | polygons, choropleths, adjacency    |
+| A3: Global & Local Autocorrelation  | join counts, global autocorrelation,hot, cold spots, cluster maps |
+| A4: Clustering                      | point patterns    |
 
 
 

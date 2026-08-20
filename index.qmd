@@ -11,6 +11,8 @@ format:
     toc: true
     number-sections: false
 ---
+This syllabus is adapted from Dr. Serge Rey's previous course, and the asynchronous lecture videos were recorded by Dr. Serge Rey.
+
 
 ## Course Information 
 
@@ -36,8 +38,6 @@ Instead, you should understand
 - Where to look when you have questions. 
 
 Key sections to revisit during the semester are the course schedule, grading thresholds, and token policy.
-
-This syllabus is adapted from Dr. Serge Rey's previous course, and the asynchronous lecture videos were recorded by Dr. Serge Rey.
 
 
 
@@ -89,7 +89,7 @@ By the end of this course, students will be able to:
 
 ## Topics (Planned)
 
-| Week | Date | Topic (R: Reading, L: Lecture Video) | Activities |
+| Week | Date | Topic (R: Reading, L: Lecture Video) | Activities(Q:Quiz,ET:Exit Tickets) |
 |------|------|---------------------------------------|------------|
 | 1 | 08-24 | Introduction | |
 | | 08-26 | Computational Environment [R][collab] | |
@@ -98,24 +98,24 @@ By the end of this course, students will be able to:
 | 3 | 09-07 | **Labor Day – No Class** | |
 | | 09-09 | Probability [R][prob], [L2a][L2a], [L2b][L2b] | ET2 |
 | 4 | 09-14 | Data Simulation [R][sim] | Q2, Exercise 1 |
-| | 09-16 | Inference [R][estimation] | ET3 |
+| | 09-16 | Inference [R][estimation],[L3a][L3a],[L3b][L3b] | ET3 |
 | 5 | 09-21 | **No Class** | |
 | | 09-23 | **No Class** | |
 | 6 | 09-28 | Estimation and Testing in Python [R][hypothesis] | Q3 |
-| | 09-30 | Spatial Data [R][spatial-data] | ET4 |
-| 7 | 10-05 | Spatial Data in Python [R][spatial-data] | Q4, Exercise 2 (W6–7) |
-| | 10-07 | Areal Unit Data | ET5 |
+| | 09-30 | Spatial Data [R][spatial-data],[L4a][L4a],[L4b][L4b] | ET4 |
+| 7 | 10-05 | Spatial Data in Python [R][spatial-data] | Q4, Exercise 2 |
+| | 10-07 | Areal Unit Data [L5a(0:56:57-1:20:45)][L5a]| ET5 |
 | 8 | 10-12 | Visualization of Areal Unit Data [R][choro] | Q5 |
-| | 10-14 | Spatial Weights [R][weights] | ET6 |
-| 9 | 10-19 | Spatial Graphs | Q6, Exercise 3 (W8–9) |
-| | 10-21 | Global Spatial Autocorrelation [R][global] | ET7 |
+| | 10-14 | Spatial Weights [R][weights],[L6a][L6a],[L6b][L6b] | ET6 |
+| 9 | 10-19 | Spatial Graphs | Q6  |
+| | 10-21 | Global Spatial Autocorrelation [R][global],[L7a][L7a],[L7b][L7b] | ET7, Exercise 3 |
 | 10 | 10-26 | Testing for Global Autocorrelation | Q7 |
-| | 10-28 | Local Spatial Autocorrelation | Exercise 4 (W10–11), ET8 |
+| | 10-28 | Local Spatial Autocorrelation [L8a][L8a] | ET8 |
 | 11 | 11-02 | Testing for Local Spatial Autocorrelation | Q8 |
 | | 11-04 | Bivariate Spatial Autocorrelation [R][local] | ET9 |
-| 12 | 11-09 | Regionalization [R][region] | Q9 |
+| 12 | 11-09 | Regionalization [R][region] | Q9, Exercise 4  |
 | | 11-11 | Point Patterns [R][points] | ET10 |
-| 13 | 11-16 | Centrography [R][centro] | Q10, Exercise 5 (W13–14) |
+| 13 | 11-16 | Centrography [R][centro] | Q10 |
 | | 11-18 | Quadrat Methods [R][quadrat] | ET11 |
 | 14 | 11-23 | Quadrat Applications | Q11 |
 | | 11-25 | **Thanksgiving Break – No Class** | |
@@ -147,6 +147,20 @@ By the end of this course, students will be able to:
 [L1b]: https://www.youtube.com/watch?v=nMOfeggiARY
 [L2a]: https://www.youtube.com/watch?v=vhTnMgHhf2A&list=PL68GC8kTZb8CRy0gkyJSvRF8Xdmx6Tysk&index=3gAQBiAQBsAgC
 [L2b]: https://www.youtube.com/watch?v=1Wmeef1Q-CE&list=PL68GC8kTZb8CRy0gkyJSvRF8Xdmx6Tysk&index=4&pp=gAQBiAQBsAgC
+[L3a]: https://www.youtube.com/watch?v=9vFGJsZz60g
+[L3b]: https://www.youtube.com/watch?v=4LM7aWwAcVk
+[L4a]: https://www.youtube.com/watch?v=jP2mmcHiedI
+[L4b]: https://www.youtube.com/watch?v=fq8Y6_aLt9I
+[L5a]: https://www.youtube.com/watch?v=i9TRi7r3NxM&t=3417s
+[L6a]: https://youtu.be/JwZGcCw6Rgg
+[L6b]: https://youtu.be/r7x44DjGNmg
+[L7a]: https://youtu.be/bnTvdWrTZgE
+[L7b]: https://youtu.be/TENvxoxquwY
+[L8a]: https://youtu.be/OlxN5dergKs
+
+
+
+
 
 
 ## Grading Philosophy: Specification Grading
@@ -162,7 +176,7 @@ Each letter grade corresponds to a set of required competencies. To earn a given
 
 | Component               | Count | Notes                                   |
 |-------------------------|-------|-----------------------------------------|
-| Exercises (Assignments) | 5     | Each spans two weeks                    |
+| Exercises (Assignments) | 4     | Each spans three weeks                    |
 | Quizzes                 | 13    | Weekly, short conceptual checks         |
 | Exit tickets            | 13    | Weekly, base on lecture contents         |
 | Tokens                  | 2     | Used for assignment revision or quiz recovery |
@@ -175,22 +189,28 @@ Major applied exercises focused on spatial data handling, analysis, and interpre
 
 Each exercise is due at 11:59pm on the Sunday at the end of its second week.
 
-#### Quizzes
-Short assessments of key concepts, terminology, and methods in spatial data analysis. Only quizzes meeting specifications count toward grade thresholds.
+#### Quizzes (due before **Monday class**.)
+Short assessments of key concepts, terminology, and methods in spatial data analysis. 
+Only quizzes meeting specifications count toward grade thresholds.
 
-#### ET - Exit Tickets
-Exit tickets are designed to check your understanding of the week's key concepts. One exit ticket will be assigned each week and is due on **Thursday night**.
-They consist of a short-answer question based on the what we discussed during the lecture.
+#### ET - Exit Tickets (due on **Thursday night**.)
+- Exit tickets are designed to check your understanding of the week's key concepts. 
+- One exit ticket will be assigned on every Wednesday after class.
+- They consist of a short-answer question based on the what we discussed during the lecture.
 
-
-#### CE — Computational Essay (Optional)
-
+#### CE — Computational Essay (Optional, due during finals week)
 A **Computational Essay (CE)** is a substantial, integrative analysis of a spatial data problem supported by computation, including code, maps, figures, and results.
- You will be expected to find your own dataset and apply the concepts and methods learned throughout the course.
+ You will be expected to find your own dataset and apply the concepts and methods learned throughout the course. 
 
-The Computational Essay is **optional** and may be used to **boost your final course grade by one grade level**. 
-For example, if your final grade is a **B** and you have already used all of your tokens, successfully completing the Computational Essay can raise your grade by one level, provided the project meets the course expectations.
+The Computational Essay is optional and can raise your final course grade by one grade level.
 
+**Example**:
+If your final grade is a **B+** and you have already used all your tokens:
+To receive the grade boost **B+ → A-**, you must:
+
+- Successfully complete and submit the Computational Essay.
+- Meet the Computational Essay expectations.
+- Note: The detailed rubric and requirements will be provided in early November.
 
 
 ---
@@ -203,17 +223,17 @@ Your final course grade is the **highest grade level for which all required comp
 
 | Level | Assignments | Quizzes | ET | 
 |-------|-------------|---------|----|
-| A     | 5           | 13      | 13 | 
-| A-    | 5           | 12      | 12 | 
-| B+    | 4           | 11      | 11 |           
-| B     | 4           | 10      | 10 |           
-| B-    | 4           | 9       | 9  |           
-| C+    | 3           | 8       | 8  |           
-| C     | 3           | 6       | 6  |           
-| C-    | 3           | 5       | 5  |           
-| D+    | 2           | 4       | 4  |           
-| D     | 2           | 3       | 3  |           
-| D-    | 2           | 2       | 2  |           
+| A     | 4           | 13      | 13 | 
+| A-    | 4           | 12      | 12 | 
+| B+    | 3           | 11      | 11 |           
+| B     | 3           | 10      | 10 |           
+| B-    | 3           | 9       | 9  |           
+| C+    | 2           | 8       | 8  |           
+| C     | 2           | 6       | 6  |           
+| C-    | 2           | 5       | 5  |           
+| D+    | 1           | 4       | 4  |           
+| D     | 1           | 3       | 3  |           
+| D-    | 1           | 2       | 2  |           
 
 ---
 
@@ -225,17 +245,16 @@ Your final course grade is the **highest grade level for which all required comp
 ---
 
 #### Worked Example
-
 Suppose a student completes:
-
-- Assignments: 5  
+- Assignments: 4  
 - Quizzes: 12  
-- Lecture Participation: 11  
-- Computational Essay: Submitted  
+- Exit Tickets : 11  
 
-The A− threshold requires 12 Lecture Participation units. Since that requirement is not met, the highest fully satisfied threshold is **B+**.
+The A− threshold requires 12 Exit Tickets units. Since that requirement is not met, the highest fully satisfied threshold is **B+**.
 
-**Final grade: B+.**
+**Your grade: B+.**
+
+If you want to boost your grade to **A-**, you can submit computational essay.
 
 ---
 
@@ -308,7 +327,7 @@ Students are encouraged to track their own progress relative to grade thresholds
 ## Course Policies
 
 ### Attendance
-Regular attendance is expected. Lecture Participation is a required component of the course.
+Regular attendance is expected. Lecture Participation helps you finish Exit Tickets.
 
 ### Late Work
 Work that does not meet specifications by the deadline will be marked *Not Yet Satisfactory*. Policies for late submission and revision are described with each assignment.
@@ -326,13 +345,11 @@ This course recognizes that AI-assisted tools (including large language models a
 #### Permitted Use
 
 Students may use AI tools to:
-
 - Clarify concepts, terminology, or methodological ideas  
 - Assist with debugging code or understanding error messages  
 - Explore alternative approaches to a computational task  
 
 #### Expectations and Limitations
-
 - All submitted work must reflect the student’s **own understanding and decision-making**.  
 - AI tools may not be used to generate complete solutions, analyses, or written interpretations submitted as the student’s own work.  
 - Students are responsible for verifying the correctness and appropriateness of any AI-assisted code or explanations they use.  
