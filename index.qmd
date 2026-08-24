@@ -24,9 +24,9 @@ This syllabus is adapted from Dr. Serge Rey's previous course, and the asynchron
 
 **Class Location:** [LSN 111](https://it.sdsu.edu/classrooms-labs/lsn111)
 
-**Office Hours:** Wednesday, 2:00pm - 3:00pm
+**Office Hours:** Wednesday, 5:00pm - 6:00pm
 
-**Office:** PSFA 361E / [VirtualLink](https://meet.google.com/hwh-ozsy-nvp)
+**Office:** PSFA 361E or [VirtualLink](https://meet.google.com/hwh-ozsy-nvp)
 
 ---
 
@@ -65,7 +65,7 @@ this is a means to the end goal: students will *code to learn* spatial data
 analysis.
 
 
-In the scope of a 16-week semester course we can only introduce a handful
+In the scope of a 15-week semester course we can only introduce a handful
 of the key concepts and methods relevant to the field of spatial data analysis. As
 such, the course is not intended as an exhaustive treatment. Instead,
 the goal is that students will acquire an understanding of the more
@@ -96,33 +96,35 @@ By the end of this course, students will be able to:
 | 2 | 08-31 | Python Primer [R][primer], [L1a][L1a], [L1b][L1b] | Q1 |
 | | 09-02 | Data Exploration [R][pandas10] | ET1 |
 | 3 | 09-07 | **Labor Day – No Class** | |
-| | 09-09 | Probability [R][prob], [L2a][L2a], [L2b][L2b] | ET2 |
-| 4 | 09-14 | Data Simulation [R][sim] | Q2, Exercise 1 |
-| | 09-16 | Inference [R][estimation],[L3a][L3a],[L3b][L3b] | ET3 |
-| 5 | 09-21 | **No Class** | |
-| | 09-23 | **No Class** | |
-| 6 | 09-28 | Estimation and Testing in Python [R][hypothesis] | Q3 |
-| | 09-30 | Spatial Data [R][spatial-data],[L4a][L4a],[L4b][L4b] | ET4 |
-| 7 | 10-05 | Spatial Data in Python [R][spatial-data] | Q4, Exercise 2 |
-| | 10-07 | Areal Unit Data [L5a(0:56:57-1:20:45)][L5a]| ET5 |
-| 8 | 10-12 | Visualization of Areal Unit Data [R][choro] | Q5 |
-| | 10-14 | Spatial Weights [R][weights],[L6a][L6a],[L6b][L6b] | ET6 |
-| 9 | 10-19 | Spatial Graphs | Q6  |
-| | 10-21 | Global Spatial Autocorrelation [R][global],[L7a][L7a],[L7b][L7b] | ET7, Exercise 3 |
-| 10 | 10-26 | Testing for Global Autocorrelation | Q7 |
-| | 10-28 | Local Spatial Autocorrelation [L8a][L8a] | ET8 |
-| 11 | 11-02 | Testing for Local Spatial Autocorrelation | Q8 |
-| | 11-04 | Bivariate Spatial Autocorrelation [R][local] | ET9 |
-| 12 | 11-09 | Regionalization [R][region] | Q9, Exercise 4  |
-| | 11-11 | Point Patterns [R][points] | ET10 |
-| 13 | 11-16 | Centrography [R][centro] | Q10 |
-| | 11-18 | Quadrat Methods [R][quadrat] | ET11 |
-| 14 | 11-23 | Quadrat Applications | Q11 |
+| | 09-09 | Probability [R][prob], [L2a][L2a], [L2b][L2b] & Data Simulation [R][sim] | ET2 |
+| 4 | 09-14 | Inference [R][estimation],[L3a][L3a],[L3b][L3b] | Q2, Exercise 1 |
+| | 09-16 | Estimation and Testing in Python [R][hypothesis] | ET3 |
+| 5 | 09-21 | Spatial Data [R][spatial-data],[L4a][L4a],[L4b][L4b] | Q3 |
+| | 09-23 | Spatial Data in Python [R][spatial-data] | ET4 |
+| 6 | 09-28 | Areal Unit Data [L5a(0:56:57-1:20:45)][L5a] | Q4, Exercise 2 |
+| | 09-30 | Visualization of Areal Unit Data [R][choro] | ET5 |
+| 7 | 10-05 | Spatial Weights [R][weights],[L6a][L6a],[L6b][L6b] | Q5 |
+| | 10-07 | Spatial Graphs | ET6 |
+| 8 | 10-12 | **No Class** | Subject to change|
+| | 10-14 | **No Class** | Subject to change|
+| 9 | 10-19 | Global Spatial Autocorrelation [R][global],[L7a][L7a],[L7b][L7b] | Q6 |
+| | 10-21 | Testing for Global Autocorrelation | ET7, Exercise 3 |
+| 10 | 10-26 | Local Spatial Autocorrelation [L8a][L8a] | Q7 |
+| | 10-28 | Testing for Local Spatial Autocorrelation | ET8 |
+| 11 | 11-02 | Bivariate Spatial Autocorrelation [R][local] | Q8 |
+| | 11-04 | Regionalization [R][region] | ET9 |
+| 12 | 11-09 | Point Patterns [R][points] | Q9, Exercise 4 |
+| | 11-11 | Centrography [R][centro] | ET10 |
+| 13 | 11-16 | Quadrat Methods [R][quadrat] | Q10 |
+| | 11-18 | Quadrat Applications | ET11 |
+| 14 | 11-23 | Distance-Based Analysis [R][ripley] | Q11 |
 | | 11-25 | **Thanksgiving Break – No Class** | |
-| 15 | 11-30 | Distance-Based Analysis [R][ripley] | Q12 |
-| | 12-02 | Ripley Functions | ET12 |
-| 16 | 12-07 | Clusters [R][process] | Q13 |
-| | 12-09 | Applications | ET13|
+| 15 | 11-30 | Ripley Functions | Q12 |
+| | 12-02 | Clusters [R][process] | ET12 |
+| 16 | 12-07 | Applications | Q13 |
+| | 12-09 | Applications | ET13 |
+
+Note: I will need to take an exam during one week this semester. It is currently scheduled for Week 8, but this may change.
 
 
 [collab]: https://geographicdata.science/book/notebooks/02_geospatial_computational_environment.html
@@ -159,10 +161,6 @@ By the end of this course, students will be able to:
 [L8a]: https://youtu.be/OlxN5dergKs
 
 
-
-
-
-
 ## Grading Philosophy: Specification Grading
 This course uses **specification grading**, a mastery-based grading system in which grades are earned by **demonstrating competency at clearly defined performance thresholds**, rather than by accumulating points or percentages.
 
@@ -176,11 +174,11 @@ Each letter grade corresponds to a set of required competencies. To earn a given
 
 | Component               | Count | Notes                                   |
 |-------------------------|-------|-----------------------------------------|
-| Exercises (Assignments) | 4     | Each spans three weeks                    |
+| Exercises (Assignments) | 4     | Each spans two weeks                    |
 | Quizzes                 | 13    | Weekly, short conceptual checks         |
 | Exit tickets            | 13    | Weekly, base on lecture contents         |
 | Tokens                  | 2     | Used for assignment revision or quiz recovery |
-| Computational Essay     | 1     | Optional, can boost your base grad    |
+| Computational Essay     | 1     | Optional, can boost your base grade    |
 
 
 #### Exercises
@@ -189,29 +187,20 @@ Major applied exercises focused on spatial data handling, analysis, and interpre
 
 Each exercise is due at 11:59pm on the Sunday at the end of its second week.
 
-#### Quizzes (due before **Monday class**.)
+#### Quizzes (due before Monday's class)
 Short assessments of key concepts, terminology, and methods in spatial data analysis. 
 Only quizzes meeting specifications count toward grade thresholds.
 
-#### ET - Exit Tickets (due on **Thursday night**.)
+#### ET - Exit Tickets (due on Thursday night)
 - Exit tickets are designed to check your understanding of the week's key concepts. 
 - One exit ticket will be assigned on every Wednesday after class.
-- They consist of a short-answer question based on the what we discussed during the lecture.
+- They consist of a short-answer question based on what we discussed during the lecture.
 
 #### CE — Computational Essay (Optional, due during finals week)
 A **Computational Essay (CE)** is a substantial, integrative analysis of a spatial data problem supported by computation, including code, maps, figures, and results.
  You will be expected to find your own dataset and apply the concepts and methods learned throughout the course. 
 
-The Computational Essay is optional and can raise your final course grade by one grade level.
-
-**Example**:
-If your final grade is a **B+** and you have already used all your tokens:
-To receive the grade boost **B+ → A-**, you must:
-
-- Successfully complete and submit the Computational Essay.
-- Meet the Computational Essay expectations.
-- Note: The detailed rubric and requirements will be provided in early November.
-
+The Computational Essay is optional and can raise your final course grade by one step on the grading scale (e.g., B+ to A− or A− to A).
 
 ---
 
@@ -250,11 +239,11 @@ Suppose a student completes:
 - Quizzes: 12  
 - Exit Tickets : 11  
 
-The A− threshold requires 12 Exit Tickets units. Since that requirement is not met, the highest fully satisfied threshold is **B+**.
+The A− threshold requires 12 Exit Tickets. Since that requirement is not met, the highest fully satisfied threshold is **B+**.
 
 **Your grade: B+.**
 
-If you want to boost your grade to **A-**, you can submit computational essay.
+If you want to boost your grade to **A-**, you can submit the Computational Essay.
 
 ---
 
@@ -327,7 +316,7 @@ Students are encouraged to track their own progress relative to grade thresholds
 ## Course Policies
 
 ### Attendance
-Regular attendance is expected. Lecture Participation helps you finish Exit Tickets.
+Regular attendance is expected but is not directly graded. Lecture participation will help you complete the Exit Tickets.
 
 ### Late Work
 Work that does not meet specifications by the deadline will be marked *Not Yet Satisfactory*. Policies for late submission and revision are described with each assignment.
