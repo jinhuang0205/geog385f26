@@ -97,23 +97,23 @@ By the end of this course, students will be able to:
 | | 09-02 | Data Exploration [R][pandas10] | ET1 |
 | 3 | 09-07 | **Labor Day – No Class** | |
 | | 09-09 | Probability [R][prob], [L2a][L2a], [L2b][L2b] & Data Simulation [R][sim] | ET2 |
-| 4 | 09-14 | Inference [R][estimation],[L3a][L3a],[L3b][L3b] | Q2, Exercise 1 |
+| 4 | 09-14 | Inference [R][estimation],[L3a][L3a],[L3b][L3b] | Q2, Exercise 1 out |
 | | 09-16 | Estimation and Testing in Python [R][hypothesis] | ET3 |
 | 5 | 09-21 | Spatial Data [R][spatial-data],[L4a][L4a],[L4b][L4b] | Q3 |
 | | 09-23 | Spatial Data in Python [R][spatial-data] | ET4 |
-| 6 | 09-28 | Areal Unit Data [L5a(0:56:57-1:20:45)][L5a] | Q4, Exercise 2 |
+| 6 | 09-28 | Areal Unit Data [L5a(0:56:57-1:20:45)][L5a] | Q4, Exercise 2 out |
 | | 09-30 | Visualization of Areal Unit Data [R][choro] | ET5 |
 | 7 | 10-05 | Spatial Weights [R][weights],[L6a][L6a],[L6b][L6b] | Q5 |
 | | 10-07 | Spatial Graphs | ET6 |
 | 8 | 10-12 | **No Class** | Subject to change|
 | | 10-14 | **No Class** | Subject to change|
 | 9 | 10-19 | Global Spatial Autocorrelation [R][global],[L7a][L7a],[L7b][L7b] | Q6 |
-| | 10-21 | Testing for Global Autocorrelation | ET7, Exercise 3 |
+| | 10-21 | Testing for Global Autocorrelation | ET7, Exercise 3 out|
 | 10 | 10-26 | Local Spatial Autocorrelation [L8a][L8a] | Q7 |
 | | 10-28 | Testing for Local Spatial Autocorrelation | ET8 |
 | 11 | 11-02 | Bivariate Spatial Autocorrelation [R][local] | Q8 |
 | | 11-04 | Regionalization [R][region] | ET9 |
-| 12 | 11-09 | Point Patterns [R][points] | Q9, Exercise 4 |
+| 12 | 11-09 | Point Patterns [R][points] | Q9, Exercise 4 out |
 | | 11-11 | Centrography [R][centro] | ET10 |
 | 13 | 11-16 | Quadrat Methods [R][quadrat] | Q10 |
 | | 11-18 | Quadrat Applications | ET11 |
